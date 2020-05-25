@@ -1,0 +1,53 @@
+body{
+  font-family: Helvetica, "Times New Roman";
+}
+
+/*Header and link styling*/
+header{
+  background-color: rgb(255, 204, 255);
+  padding: 20px;
+}
+header h1, header nav{
+  width: 300px;
+  text-align: center;
+  margin: 10px 1000px 10px 10px;
+}
+a{
+  color: rgb(15,179,15);
+}
+
+/*main section of text pages*/
+
+main{
+  width: 60%;
+}
+
+/*main section of pets page*/
+
+.pets{
+  width: 100%;
+}
+img{
+  width: 100%;
+}
+.animals{
+  display: inline-block;
+  float: left;
+  width: 25%;
+  border: thin silver solid;
+  padding: 10px;
+}
+h4{
+  background-color: rgb(255, 204, 255);
+}
+h4, figcaption{
+  text-align: center;
+}
+.info{
+  display: inline-block;
+  float: left;
+  width: 60%;
+}
+section, footer, .top{
+  clear: both;
+}
