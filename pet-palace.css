@@ -7,13 +7,32 @@ header{
   background-color: rgb(255, 204, 255);
   padding: 20px;
 }
+header nav{
+  height: 50px;
+}
 header h1, header nav{
-  width: 300px;
+  border: solid;
+  box-sizing: border-box;
+  width: 400px;
   text-align: center;
-  margin: 10px 1000px 10px 10px;
+  margin: 10px 5%;
 }
 a{
-  color: rgb(15,179,15);
+  display: inline-block;
+  color: #fff;
+  background-color: #1a1a1a;
+  text-align: center;
+  text-decoration: none;
+  line-height: 40px;
+  height: 40px;
+  width: 100px;
+  margin: 0 10px;
+  border-radius: 20px;
+  transition: background-color 0.5s ease-out;
+}
+
+a:hover{
+  background-color: #000;
 }
 
 /*main section of text pages*/
@@ -30,7 +49,8 @@ main{
 img{
   width: 100%;
 }
-.animals{
+.animals/*Animal Figures*/{
+  box-sizing: border-box;
   display: inline-block;
   float: left;
   width: 25%;
@@ -44,6 +64,7 @@ h4, figcaption{
   text-align: center;
 }
 .info{
+  box-sizing: border-box;
   display: inline-block;
   float: left;
   width: 60%;
