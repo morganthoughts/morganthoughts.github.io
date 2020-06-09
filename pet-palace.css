@@ -1,25 +1,47 @@
 body{
   font-family: Helvetica, "Times New Roman";
 }
+a{
+  color: #206020;
+}
+#btt{
+  display: block;
+  clear: both;
+  margin-bottom: 10px;
+}
 
-/*Header and link styling*/
+/*HEADER AND LINKS
+*/
 header{
-  background-color: rgb(255, 204, 255);
-  padding: 20px;
+  background: #ff66cc;
+  padding: 10px;
+  margin-bottom: 35px;
 }
 header nav{
   height: 50px;
 }
-header h1, header nav{
+h1{
+  text-shadow: 5px 5px 3px #ff00aa;
+  font-family: Roboto;
+  text-transform: uppercase;
   box-sizing: border-box;
+  font-size: 3em;
+  margin: 10px 0 20px;
+  position: relative;
+  left: 80px;
+}
+header nav{
+  box-sizing: border-box;
+  position: relative;
+  left: 10px;
   width: 400px;
   text-align: center;
-  margin: 10px 5%;
 }
-a{
+nav a{
+  border: solid;
   display: inline-block;
   color: #fff;
-  background-color: #1a1a1a;
+  background-color: #206020;
   text-align: center;
   text-decoration: none;
   line-height: 40px;
@@ -29,19 +51,24 @@ a{
   border-radius: 20px;
   transition: background-color 0.5s ease-out;
 }
-
-a:hover{
+nav a:hover{
   background-color: #000;
 }
 
-/*main section of text pages*/
 
+/*HOME AND CONTACT PAGES
+*/
 main{
   width: 60%;
 }
 
-/*main section of pets page*/
 
+/*PETS PAGE
+*/
+div{
+  border: solid;
+  padding: 30px 0;
+}
 .pets{
   width: 100%;
 }
@@ -56,10 +83,10 @@ img{
   border: thin silver solid;
   padding: 10px;
 }
-h4{
-  background-color: rgb(255, 204, 255);
+h2{
+  background-color: #ffccee;
 }
-h4, figcaption{
+h2, figcaption{
   text-align: center;
 }
 .info{
@@ -70,4 +97,26 @@ h4, figcaption{
 }
 section, footer, .top{
   clear: both;
+}
+
+
+/*TABLES
+*/
+table{
+  font-size: 1.05em;
+  line-height: 1.3em;
+  margin-bottom: 20px;
+}
+td{
+  padding: 10px;
+  background-color: rgb(255, 204, 238, 0.6);
+}
+tr:hover td{
+  background-color: rgb(255, 204, 238, 1);
+}
+td:first-child{
+  text-align: center;
+}
+tr:last-child td{
+    border-bottom: solid #ff6666 10px;
 }
