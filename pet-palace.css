@@ -65,10 +65,6 @@ main{
 
 /*PETS PAGE
 */
-div{
-  border: solid;
-  padding: 30px 0;
-}
 .pets{
   width: 100%;
 }
